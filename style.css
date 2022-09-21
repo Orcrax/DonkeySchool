@@ -1,0 +1,42 @@
+body {
+    width: 95%;
+    background-color: #F2F2F2;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+h1 {
+    color: #2C7371;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.form {
+    width: 15%;
+    display: column;
+    align-items: center;
+    margin: auto;
+}
+.proud {
+    float: right;
+    margin-right: 3%;
+}
+.nerd {
+    float: left;
+    margin-left: 1%;
+}
+img {
+    border-radius: 10px;
+}
+
+img:hover {
+    opacity: 60%; 
+}
+
+.firstarticle {
+    margin: 2% 0% 2% 33%;
+}
+img:nth-child(3) {
+    -webkit-filter: grayscale(100%);
+}
