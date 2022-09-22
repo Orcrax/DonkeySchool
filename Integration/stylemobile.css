@@ -10,21 +10,31 @@ p {
     color: lightyellow
 }
 nav a {
-    color: lightyellow;
+    color: rgb(255, 208, 0);
 }
 label {
-    color: lightyellow;
+    color: rgb(0, 0, 0);
 }
 .form {
-    margin: 15% 0% 0% 30%;
+    margin: 2% 2% 2% 2%;
+    float: left
 }
 nav {
     background-color: black;
+    box-shadow: none;
+    margin-left: 0%;
 }
 nav a {
     border-bottom: none;
 }
 .sous {
     box-shadow: none;
+}
+.proud, .nerd {
+    display: flex;
+    margin-top: 70%;
+}
+nav ul li{
+    
 }
 }

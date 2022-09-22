@@ -17,7 +17,6 @@ a {
 }
 .form {
     width: 15%;
-    display: column;
     align-items: center;
     margin: auto;
 }
@@ -95,9 +94,7 @@ nav > ul li:hover .sous {
 }
 
 .sous li {
-    float: none;
     width: 100%;
-    text-align: left;
 }
 
 .sous a{
