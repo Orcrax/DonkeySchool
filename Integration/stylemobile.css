@@ -1,0 +1,40 @@
+@media all and (max-width: 600px) {
+
+body {
+    background-color: black;
+}
+h1 {
+    color: goldenrod;
+}
+p {
+    color: lightyellow
+}
+nav a {
+    color: rgb(255, 208, 0);
+}
+label {
+    color: rgb(0, 0, 0);
+}
+.form {
+    margin: 2% 2% 2% 2%;
+    float: left
+}
+nav {
+    background-color: black;
+    box-shadow: none;
+    margin-left: 0%;
+}
+nav a {
+    border-bottom: none;
+}
+.sous {
+    box-shadow: none;
+}
+.proud, .nerd {
+    display: flex;
+    margin-top: 70%;
+}
+nav ul li{
+    
+}
+}

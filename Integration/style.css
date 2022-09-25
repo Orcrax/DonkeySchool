@@ -1,0 +1,113 @@
+body {
+    width: 95%;
+    background-color: lightyellow;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a {
+    color: darkgoldenrod;
+}
+.form {
+    width: 15%;
+    align-items: center;
+    margin: auto;
+}
+.proud {
+    float: right;
+    margin-right: 3%;
+}
+.nerd {
+    float: left;
+    margin-left: 1%;
+}
+img {
+    border-radius: 10px;
+    margin: 0% 2% 0% 2%;
+}
+
+img:hover {
+    opacity: 60%; 
+}
+
+.firstarticle {
+    margin: 2% 0% 2% 33%;
+}
+
+img:nth-child(3) {
+    -webkit-filter: grayscale(100%);
+}
+
+nav {
+    width: 10%;
+    background-color: lightyellow;
+    position: sticky;
+    top: 0px;
+    margin-left: 15%;
+    border-top: solid 0.1em;
+    box-shadow: 0px 1px 2px  grey;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 5px 0px;
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: lightyellow;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    width: 100%;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: rgba(200, 200, 200, 0.1);
+}
+
+.menu {
+    content: "▼";
+    font-size: 12px;
+}
